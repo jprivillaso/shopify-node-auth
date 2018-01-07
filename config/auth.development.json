@@ -1,0 +1,8 @@
+{
+  "oauth" : {
+    "redirectUri": "https://your-server-url.com/auth_token",
+    "sharedSecret": "SHARED_KEY",
+    "apiKey": "API_KEY",
+    "scopes": "read_orders,write_products,read_products,read_themes,write_themes"
+  }
+}
