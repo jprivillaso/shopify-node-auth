@@ -7,6 +7,26 @@
   "scripts": {
     "start": "npm install && NODE_ENV=production node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jprivillaso/shopify-node-auth"
+  },
+  "keywords": [
+    "shopify",
+    "shopify-api",
+    "shopify-apps",
+    "shopify-sdk",
+    "shopify-embedded-applications",
+    "nodejs",
+    "oauth",
+    "express",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jprivillaso/shopify-node-auth/issues"
+  },
+  "homepage": "https://github.com/jprivillaso/shopify-node-auth/reeakt#readme",
   "dependencies": {
     "body-parser": "~1.14.0",
     "compression": "^1.6.2",
