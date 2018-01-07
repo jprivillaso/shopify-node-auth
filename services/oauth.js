@@ -59,7 +59,7 @@ const initApp = (req, res, app) => {
   } else {
 
     // Install mode
-    if (req.query.isAdmin === undefined && req.query.shop !== undefined && queryLength < 4) {
+    if (req.query.shop !== undefined) {
 
       console.log('Install mode');
       authenticate(shopifyToken, req, res);

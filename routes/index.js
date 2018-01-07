@@ -1,7 +1,5 @@
 const OAuthService = require('../services/oauth');
 
-// Use functions because there's no possible override `this`
-// at arrow functions
 function startApplication(req, res) {
   OAuthService.initApp(req, res, this.app);
 }
