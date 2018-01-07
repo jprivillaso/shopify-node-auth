@@ -1,7 +1,9 @@
 {
-  "name": "neobuilder",
-  "version": "0.0.1",
-  "private": true,
+  "name": "shopify-oauth-node",
+  "version": "1.0.0",
+  "author": {
+    "name": "Juan Rivillas"
+  },
   "scripts": {
     "start": "npm install && NODE_ENV=production node app.js"
   },
